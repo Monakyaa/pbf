@@ -97,7 +97,7 @@ version: '3.8'
 
 services:
   mysql:
-    image: mysql:8
+    image: mysql:8.1
     container_name: mysql_container
     restart: always
     environment:
